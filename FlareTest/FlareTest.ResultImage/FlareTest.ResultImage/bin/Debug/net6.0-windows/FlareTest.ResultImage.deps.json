@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FlareTest.ResultImage/1.0.0": {
+        "dependencies": {
+          "FlareTest.Model": "1.0.0",
+          "FlareTest.Operations": "1.0.0"
+        },
+        "runtime": {
+          "FlareTest.ResultImage.dll": {}
+        }
+      },
+      "FlareTest.Model/1.0.0": {
+        "runtime": {
+          "FlareTest.Model.dll": {}
+        }
+      },
+      "FlareTest.Operations/1.0.0": {
+        "dependencies": {
+          "FlareTest.Model": "1.0.0",
+          "FlareTest.Resources": "1.0.0"
+        },
+        "runtime": {
+          "FlareTest.Operations.dll": {}
+        }
+      },
+      "FlareTest.Resources/1.0.0": {
+        "runtime": {
+          "FlareTest.Resources.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FlareTest.ResultImage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FlareTest.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FlareTest.Operations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FlareTest.Resources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

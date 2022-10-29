@@ -1,0 +1,132 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "FlareTest.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FlareTest.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FlareTest.Model.dll": {}
+        }
+      },
+      "FlareTest.Operations/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FlareTest.Model": "1.0.0",
+          "FlareTest.Resources": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FlareTest.Operations.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FlareTest.Operations.dll": {}
+        }
+      },
+      "FlareTest.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FlareTest.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FlareTest.Resources.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FlareTest.Model/1.0.0": {
+      "type": "project",
+      "path": "../../FlareTest.Model/FlareTest.Model.csproj",
+      "msbuildProject": "../../FlareTest.Model/FlareTest.Model.csproj"
+    },
+    "FlareTest.Operations/1.0.0": {
+      "type": "project",
+      "path": "../../FlareTest.Operations/FlareTest.Operations.csproj",
+      "msbuildProject": "../../FlareTest.Operations/FlareTest.Operations.csproj"
+    },
+    "FlareTest.Resources/1.0.0": {
+      "type": "project",
+      "path": "../../FlareTest.Resources/FlareTest.Resources.csproj",
+      "msbuildProject": "../../FlareTest.Resources/FlareTest.Resources.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "FlareTest.Model >= 1.0.0",
+      "FlareTest.Operations >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ravic\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\Interview\\Flare\\FlareTest\\FlareTest.ResultImage\\FlareTest.ResultImage\\FlareTest.ResultImage.csproj",
+      "projectName": "FlareTest.ResultImage",
+      "projectPath": "D:\\Projects\\Interview\\Flare\\FlareTest\\FlareTest.ResultImage\\FlareTest.ResultImage\\FlareTest.ResultImage.csproj",
+      "packagesPath": "C:\\Users\\ravic\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\Interview\\Flare\\FlareTest\\FlareTest.ResultImage\\FlareTest.ResultImage\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ravic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "D:\\Projects\\Interview\\Flare\\FlareTest\\FlareTest.Model\\FlareTest.Model.csproj": {
+              "projectPath": "D:\\Projects\\Interview\\Flare\\FlareTest\\FlareTest.Model\\FlareTest.Model.csproj"
+            },
+            "D:\\Projects\\Interview\\Flare\\FlareTest\\FlareTest.Operations\\FlareTest.Operations.csproj": {
+              "projectPath": "D:\\Projects\\Interview\\Flare\\FlareTest\\FlareTest.Operations\\FlareTest.Operations.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
